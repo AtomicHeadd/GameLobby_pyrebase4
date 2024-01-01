@@ -9,10 +9,10 @@ P2P通信のIP、ポート交換用のサーバーとなるので、これ自体
 このサーバーが提供する主な機能は以下の通りです。
 
 1. すでに存在する部屋のリストを取得する (create_room)
-2a. 新しい部屋を作成する (get_all_room)
-2b. すでに存在する部屋に参加する (join_private/join_random)
-3a. 人数が集まるまで待機する (get_room)
-3b. 参加している部屋を離脱する (leave_room)
+2. 新しい部屋を作成する (get_all_room)
+2. すでに存在する部屋に参加する (join_private/join_random)
+3. 人数が集まるまで待機する (get_room)
+3. 参加している部屋を離脱する (leave_room)
 4. 部屋主のゲーム開始の合図を全クライアントに送る (update_room|get_room)
 5. 各クライアントから送られてきたIPアドレスを保存し、別のクライアントから参照できるようにする(update_room)
 
